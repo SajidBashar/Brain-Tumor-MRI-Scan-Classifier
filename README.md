@@ -49,9 +49,12 @@ Trainable params: 4,619,524
 Non-trainable params: 0
 ```
 
-After trial and error, the optimal learning rate was found with exponential decay at &alpha; = 0.0001, which seemingly provided better accuracy rates per training step. The highest accuracy of the classifier was 90.25%, shown in the following output snippet 
+After trial and error, the optimal learning rate was found with exponential decay at &alpha; = 0.0001, which seemingly provided better accuracy rates per training step. The highest accuracy of the classifier was 91.29%, shown in the following output snippet 
 ```
-Epoch 22/25
-45/45 [==============================] - 135s 3s/step - loss: 0.1683 - accuracy: 0.9404 - val_loss: 0.2369 - val_accuracy: 0.9042
+Epoch 29/30
+46/46 [==============================] - 139s 3s/step - loss: 0.1450 - accuracy: 0.9516 - val_loss: 0.2515 - val_accuracy: 0.9129
 ```
-25 epochs were ran to train the neural network with a total approximate runtime of 30 minutes for completion. 
+30 epochs were ran to train the neural network with a total approximate runtime of 30 minutes for completion. Predictions are visualized as shown in the example below, 
+
+![alt text](https://github.com/SajidBashar/Brain-Tumor-MRI-Scan-Classifier/blob/main/prediction_example.png?raw=true)
+
